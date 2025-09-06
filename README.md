@@ -1,14 +1,69 @@
-# Projeto-Java-Spring-Linguagem-de-Programacao
-Projeto full-stack de Linguagem de Programação do Ricardo
+# 📝 CRUD Lista de Tarefas (Todo List)
 
-## Front/Web/Angular
---> listadetarefas-web
-Esse é o front da aplicação do trabalho de full-stack, coloquei isso só para deixar "mais facil", basicamente este é o front web em Angular do projeto.
+![Java](https://img.shields.io/badge/Java-21-red?logo=java)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.x-green?logo=springboot)
+![Angular](https://img.shields.io/badge/Angular-20-red?logo=angular)
+![JavaFX](https://img.shields.io/badge/JavaFX-21-blue?logo=openjdk)
+![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
-## Back/Spring
---> listadetarefas
-Esse é o back da aplicação do trabalho de full-stack, que conversa tanto com o front em angular(Web) quanto com a versão desktop.
+---
 
-## Sistema Desktop/Desktop/JavaFX
---> desktop
-Esse é o desktop da aplicação do trabalho de full-stack.# Projeto-Java-Spring
+## 📌 Descrição do Projeto
+Este projeto consiste em uma aplicação **Full Stack** desenvolvida para gerenciar uma lista de tarefas (**Todo List**).  
+A aplicação possui **tema Dark/Light**, rodapé com informações do desenvolvedor e integração entre **Web** e **Desktop**.  
+
+O sistema foi desenvolvido com:
+- **Backend:** Spring Boot (Java)
+- **Frontend:** Angular  
+- **Desktop:** JavaFX consumindo a mesma API REST
+- Comunicação via **REST API**
+
+---
+
+## 🚀 Funcionalidades
+✔ Criar, listar, editar e remover tarefas  
+✔ Alternância de tema **Dark/Light**  
+✔ Rodapé com informações do desenvolvedor  
+✔ Cliente **JavaFX** integrado à mesma API  
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+### Backend
+- Java 21
+- Lombok
+- Spring Boot
+- Spring Data JPA
+- H2 Database
+- Maven
+
+### Frontend
+- Angular 20
+- TypeScript
+- HTML / CSS (com suporte a Dark/Light)
+
+### Desktop
+- JavaFX 21
+- Apache HttpClient 5
+- Jackson
+
+---
+
+## ▶️ Como Executar
+```bash
+# Clonar o repositório
+git clone https://github.com/BrunoMartinsJorge/Projeto-Full-Stack-Linguagem-de-Programacao.git
+cd Projeto-Full-Stack-Linguagem-de-Programacao
+
+# ▶️ Backend (Spring Boot)
+cd backend
+./mvnw spring-boot:run
+
+# ▶️ Frontend (Angular)
+cd frontend
+npm install
+ng serve
+
+# ▶️ Desktop (JavaFX)
+cd desktop
+mvn javafx:run
